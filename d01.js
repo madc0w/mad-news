@@ -14,4 +14,14 @@ const data = {
 		'However, some religious leaders have welcomed the news as a vindication of their faith. "For centuries, we have been told that our belief in the biblical account of creation was naive and unscientific," said Reverend John Taylor, a prominent creationist. "Now, it seems that the very scientists who once dismissed us are coming to accept that the story of Genesis is not just a matter of faith, but a legitimate and compelling explanation for the origins of life."',
 		'The implications of these revelations for the future of scientific research and education are yet to be determined, but one thing is certain: the debate over our origins is far from settled, and the search for answers continues.',
 	],
+	image1: {
+		src: 'pic2_1.png',
+		alt: 'Dr. David Pilbeam',
+		style: 'width: 60%; padding-left: 20%',
+	},
+	image2: {
+		src: 'pic2_2.png',
+		alt: 'Supposed dinosaur fossils being removed from the Natural History Museum in London',
+		style: 'width: 60%; padding-left: 20%',
+	},
 };

@@ -22,4 +22,14 @@ function load() {
 	}
 	document.getElementById('text-block-container').innerHTML = html;
 	document.getElementById('byline').innerHTML = data.byline;
+
+	const img1 = document.getElementById('img1');
+	img1.setAttribute('src', data.image1.src);
+	img1.setAttribute('alt', data.image1.alt);
+	img1.setAttribute('style', data.image1.style);
+
+	const img2 = document.getElementById('img2');
+	img2.setAttribute('src', data.image2.src);
+	img2.setAttribute('alt', data.image2.alt);
+	img2.setAttribute('style', data.image2.style);
 }
