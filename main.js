@@ -32,4 +32,7 @@ function load() {
 	img2.setAttribute('src', data.image2.src);
 	img2.setAttribute('alt', data.image2.alt);
 	img2.setAttribute('style', data.image2.style);
+
+	document.getElementById('img1-caption').innerHTML = data.image1.alt;
+	document.getElementById('img2-caption').innerHTML = data.image2.alt;
 }
